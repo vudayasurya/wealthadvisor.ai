@@ -38,7 +38,7 @@ USING
 -- PREDICT response
 -- USING
 --   engine = 'openai_engine_udaya',
---   api_key = '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',
+--   api_key = 'XXXX',
 --   model_name = 'gpt-4', -- you can also use 'text-davinci-003', 'gpt-3.5-turbo'
 --   prompt_template ='rank the rating from 0 to 10: {{comment}}';
 
@@ -53,7 +53,7 @@ CREATE MODEL gpt_model_stock_insights_2022
 PREDICT response
 USING
   engine = 'openai_engine_udaya',
-  api_key = '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',
+  api_key = 'XXXX',
   model_name = 'gpt-4', -- you can also use 'text-davinci-003', 'gpt-3.5-turbo'
   prompt_template ='I am stock trader. I want to buy stock based on latest news.classify the sentiment of the news and assign values 
 strictly as 1, 0, or -1. 1 means news is positive, 0 means news is neutral,-1 means news in negative,  No text needed only numbers please
@@ -64,7 +64,7 @@ CREATE MODEL gpt_model_stock_insights_2022
 PREDICT response
 USING
   engine = 'openai_engine_udaya',
-  api_key = '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',
+  api_key = 'XXXX',
   model_name = 'gpt-4', -- you can also use 'text-davinci-003', 'gpt-3.5-turbo'
   prompt_template ='I am stock trader. I want to buy stock based on previous investments.classify the sentiment of the news and assign values 
 strictly as 1, 0, or -1. 1 means news is positive, 0 means news is neutral,-1 means news in negative,  No text needed only numbers please
