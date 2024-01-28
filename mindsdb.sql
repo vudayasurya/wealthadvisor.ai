@@ -32,7 +32,7 @@ CREATE OR REPLACE TABLE stock.live_news
 CREATE ML_ENGINE openai_engine_udaya
 FROM openai
 USING
-    api_key = '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';
+    api_key = '';
 
 -- CREATE MODEL gpt_model_udaya_01_28
 -- PREDICT response
